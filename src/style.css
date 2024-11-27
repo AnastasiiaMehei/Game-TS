@@ -1082,6 +1082,9 @@ color: #000000b0;
         .twelfth-section-content {
           gap: 7px;
         }
+        .twelfth-section-title {
+          font-size: 32px;
+        }
 }
 /* thirteen-section */
 .thirteen-section {
