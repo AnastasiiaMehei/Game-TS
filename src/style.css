@@ -899,6 +899,11 @@ color: #fff;
   
 }
 /* sidebar-div */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .sidebar-div {
   border-radius: 6px;
   width: 295px;
@@ -967,4 +972,33 @@ font-size: 16px;
 line-height: 1.5;
 text-align: justify;
 color: #7c7c7c;
+}
+.sidebar-div-films {
+  border-radius: 6px;
+width: 295px;
+background: #fff;
+}
+.sidebar-div-casino {
+  border-radius: 6px;
+width: 295px;
+height: 60px;
+background: var(--main-color);
+font-weight: 600;
+font-size: 16px;
+line-height: 1.2;
+text-transform: uppercase;
+color: var(--white-color-light);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sidebar-div-films-avatar {
+  display: flex
+  ;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      padding-top: 15px;
+    padding-bottom: 15px;
 }
