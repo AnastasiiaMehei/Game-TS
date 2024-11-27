@@ -114,6 +114,8 @@ img {
   /* --medium-black-color: #242527; */
   /* --light-black-color: #3B3B3B; */
   --green-color: #0fa810;
+ --green-black-color: #2e9344;
+
   --red-color: #ED3B44;
   --white-color: #fff;
   --orange-color: #ec622b;
@@ -659,4 +661,91 @@ color: var(--white-color);
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-color);
+}
+/* eleventh-section */
+.eleventh-section {
+  background: url(./img/eleventh-section.png);
+width: 925px;
+height: 648px;
+}
+.eleventh-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.eleventh-section-title {
+font-weight: 700;
+font-size: 48px;
+line-height: 1.2;
+text-transform: uppercase;
+color: var(--main-color);
+}
+.eleventh-section-paragraph {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--main-color);
+}
+.eleventh-section-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.eleventh-section-button {
+  border: 1px solid var(--main-color);
+border-radius: 16px;
+padding: 10px 24px;
+width: 127px;
+height: 48px;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.28;
+text-transform: uppercase;
+color: var(--main-color);
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.icons-eleventh-section {
+  width: 16px;
+  height: 16px;
+
+}
+.eleventh-section-info {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.eleventh-section-info-div {
+  border-bottom: 1px solid var(--main-color);
+width: 886px;
+display: flex
+;
+gap: 27px;
+    align-items: center;
+}
+.eleventh-section-description {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+  gap: 8px;
+  width: 215px;
+}
+.icons-eleventh-section-info {
+  width: 20px;
+  height: 16px;
+}
+.eleventh-section-info-paragraph {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--main-color);
+}
+.eigth-section-div-info {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--green-black-color);
+text-decoration: underline;
+text-decoration-skip-ink: none;
 }
