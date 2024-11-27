@@ -127,7 +127,7 @@ img {
 --transparent-black: #000000b0;
 --primary-color-black: #141e55;
 --primary-grey-color: #fafafa99;
-  --animation-hover: 250ms ease-in;
+--animation-hover: 250ms ease-in;
 }
 
 /* header */
@@ -510,7 +510,7 @@ img {
 .fifth-section__get-bonus {
   border: 1px solid var(--white-color);
   border-radius: 16px;
-  padding: 12px 32px;
+  padding: 12px 12px;
   width: 214px;
   height: 48px;
   box-shadow: 0 4px 18px 0 rgba(14, 24, 17, 0.25);
