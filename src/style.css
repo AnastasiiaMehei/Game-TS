@@ -964,6 +964,9 @@ ol {
     align-items: center;
     gap: 9px;
   }
+  .eleventh-section__info-div {
+    width: 700px;
+  }
 }
 /* eleventh-section */
 .eleventh-section {
