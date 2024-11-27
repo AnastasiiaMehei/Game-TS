@@ -802,17 +802,17 @@ text-transform: uppercase;
 color: var(--main-color);
 }
 .twelfth-section-btns {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   border: none;
   background-color: inherit;
   display: flex;
 align-items: center;
 }
-.icons-twelfth-section {
+/* .icons-twelfth-section {
   width: 17px;
   height: 10px;
-}
+} */
 .twelfth-section-description {
   border-radius: 0 0 6px 6px;
   padding: 16px 12px;
@@ -825,4 +825,62 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #000000b0;
+}
+/* thirteen-section */
+.thirteen-section {
+width: 925px;
+}
+.thirteen-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.thirteen-section-main-paragraph {
+  display: flex;
+}
+.thirteen-section-main-paragraph {
+  font-display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.thirteen-section-paragraphs {
+  display: flex;
+  flex-direction: column;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--main-color);
+gap: 25px;
+}
+.thirteen-section-18 {
+width: 85px;
+height: 85px;
+border: 1px solid var(--main-color);
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--main-color);
+font-weight: 800;
+font-size: 37px;
+padding: 5px;
+}
+.thirteen-section-logo-div {
+  width: 151px;
+height: 55px;
+background: #141e55;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.thirteen-section-logo {
+font-weight: 400;
+font-size: 32px;
+line-height: 1.28;
+color: #fff;
+}
+.thirteen-section-logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  
 }
