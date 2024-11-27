@@ -227,6 +227,8 @@ height: 48px;
   flex-direction: row;
   align-content: center;
   justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
 }
 .main-content {
   
@@ -892,6 +894,7 @@ color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 .sidebar-div-player {
   border-radius: 60px;
@@ -925,4 +928,31 @@ color: #fcfcfc;
 }
 .icon-triagle-white {
   fill: #fcfcfc;
+}
+.sidebar-options-div {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 0 0 6px 6px;
+padding: 24px 0px;
+width: 295px;
+}
+.sidebar-options-div-content {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+.sidebar-options-div-img {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-options-div-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: justify;
+color: #7c7c7c;
 }
