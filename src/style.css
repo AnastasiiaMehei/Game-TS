@@ -1141,6 +1141,7 @@ align-items: center;
   width: 884px;
   background: #dfe8f6;
 opacity: 0.9;
+display: none; 
 }
 .twelfth-section__description-paragraph {
 font-weight: 400;
@@ -1151,6 +1152,10 @@ color: #000000b0;
 .twelfth-section__icons {
   width: 16px;
   height: 9px;
+  transition: transform 0.3s ease;
+}
+.twelfth-section__div--open .twelfth-section__icons {
+  transform: rotate(180deg);
 }
 @media screen and (max-width: 767px) {
   .twelfth-section {
@@ -1165,9 +1170,16 @@ color: #000000b0;
     align-items: center}
     .twelfth-section__description {
 
-      width: 290px;}
+      width: 290px;
+      max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;}
       .twelfth-section__description {
         width: 250px;
+      }
+      .twelfth-section__div--open .twelfth-section__description {
+        max-height: 500px; /* Установите максимальную высоту по вашему усмотрению */
+        transition: max-height 0.5s ease-in;
       }
       .twelfth-section__description-paragraph {
         font-size: 9px;}
