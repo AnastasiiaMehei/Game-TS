@@ -120,6 +120,7 @@ img {
 --white-second-color: #e2eaf7;
 --blue-black-color: 0a626a26;
 --blue-second-color: #80bef8;
+--blue-third-color:  #dfe8f6;
 --green-third-color: #0fa810;
 --yellow-second-color: #ffff00;
 --black-second-color: 77777780;
@@ -1150,7 +1151,7 @@ ol {
   border-radius: 0 0 6px 6px;
   padding: 16px 12px;
   width: 884px;
-  background: var(--while-light-color);
+  background: var(--blue-third-color);
   opacity: 0.9;
   display: none;
 }
