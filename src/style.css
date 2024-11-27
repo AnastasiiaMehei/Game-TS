@@ -901,12 +901,13 @@ height: 48px;
 background: #ec622b;
 display: flex;
 flex-direction: row;
-}
+align-items: center;
+justify-content: space-around;}
 .sidebar-player {
   width: 40px;
 height: 40px;
 border-radius: 100%;
-fill: #fcfcfc;
+background-color: #fcfcfc;
 display: flex;
 align-items: center;
 justify-content: center;
