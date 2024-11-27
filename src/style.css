@@ -422,7 +422,7 @@ img {
   }
   .second-section {
     gap: 8px;
-    width: 290px;
+    width: 320px;
     height: 269px;
   }
   .second-section__rating-players {
@@ -908,6 +908,10 @@ ol {
   width: 16px;
   height: 15px;
 }
+.tenth-section__icons-tenth-section {
+  width: 18px;
+  height: 8px;
+}
 .tenth-section__person-marks {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -1162,8 +1166,8 @@ ol {
   color: var(--transparent-black);
 }
 .twelfth-section__icons {
-  width: 16px;
-  height: 9px;
+  width: 24px;
+  height: 24px;
   transition: transform 0.3s ease;
 }
 .twelfth-section__div--open .twelfth-section__icons {
@@ -1192,7 +1196,7 @@ ol {
     width: 250px;
   }
   .twelfth-section__div-info, .twelfth-section__description {
-    width: 250px;
+    width: 280px;
     height: 37px;
     align-items: center;
   }
