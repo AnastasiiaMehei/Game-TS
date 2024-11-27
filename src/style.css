@@ -1168,14 +1168,29 @@ ol {
 .twelfth-section__div--open .twelfth-section__icons {
   transform: rotate(180deg);
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1439px) {
   .twelfth-section {
-    width: 290px;
+    width: 750px;
   }
   .twelfth-section__div {
-    width: 290px;
+    width: 632px;
   }
   .twelfth-section__div-info {
+    width: 708px;
+  }
+  .twelfth-section__description {
+    width: 708px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .twelfth-section {
+    width: 320x;
+  }
+  .twelfth-section__div {
+    width: 250px;
+  }
+  .twelfth-section__div-info, .twelfth-section__description {
     width: 250px;
     height: 37px;
     align-items: center;
@@ -1201,20 +1216,6 @@ ol {
   }
   .twelfth-section__title {
     font-size: 32px;
-  }
-}
-@media screen and (max-width: 1439px) {
-  .twelfth-section {
-    width: 750px;
-  }
-  .twelfth-section__div {
-    width: 632px;
-  }
-  .twelfth-section__div-info {
-    width: 708px;
-  }
-  .twelfth-section__description {
-    width: 708px;
   }
 }
 /* thirteen-section */
