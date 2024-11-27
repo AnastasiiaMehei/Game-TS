@@ -206,6 +206,9 @@ gap: 15px;
     align-items: center;
     gap: 10px;
 }
+.AT-button:hover {
+  border: var(--white-color);
+}
 .sign-up-button {
   text-transform: uppercase;
 
