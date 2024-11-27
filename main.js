@@ -1,19 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const faqItems = document.querySelectorAll('.twelfth-section__div');
+  const faqItems = document.querySelectorAll('.twelfth-section__div-info');
 
   faqItems.forEach((faqItem) => {
     const button = faqItem.querySelector('.twelfth-section__btns');
-    const description = faqItem.querySelector('.twelfth-section__description');
-    const icon = button.querySelector('.twelfth-section__icons use');
+    const iconUp = button.querySelector('#icon-up');
+    const iconTurnDown = button.querySelector('#icon-turn-down');
+    const description = faqItem.nextElementSibling; 
 
     button.addEventListener('click', function() {
-      // Переключаем видимость описания
-      if (description.style.display === 'none' || description.style.display === '') {
+      if (description.style.display === 'none') {
         description.style.display = 'block';
-        icon.setAttribute('href', './src/img/icons.svg#icon-turn-down');
+        iconUp.style.display = 'inline';
+        iconTurnDown.style.display = 'none';
       } else {
         description.style.display = 'none';
-        icon.setAttribute('href', './src/img/icons.svg#icon-up');
+        iconUp.style.display = 'none';
+        iconTurnDown.style.display = 'inline';
       }
     });
   });
