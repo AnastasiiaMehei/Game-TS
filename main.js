@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
       // Переключаем видимость описания
       if (description.style.display === 'none' || description.style.display === '') {
         description.style.display = 'block';
-        icon.setAttribute('href', '#icon-turn-down');
+        icon.setAttribute('href', './src/img/icons.svg#icon-turn-down');
       } else {
         description.style.display = 'none';
-        icon.setAttribute('href', '#icon-up');
+        icon.setAttribute('href', './src/img/icons.svg#icon-up');
       }
     });
   });
