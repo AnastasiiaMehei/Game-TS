@@ -841,6 +841,9 @@ color: var(--white-color);
   color: var(--main-color);
 }
 @media screen and (max-width: 767px) {
+  .tenth-section {
+width: 290px;
+  }
   .tenth-section-title {
     font-size: 15px;}
     .tenth-section-button {
@@ -848,8 +851,7 @@ color: var(--white-color);
       width: 42px;
       height: 34px}
       .tenth-section-reviews-person {
-        width: 279px;  
-        padding-left: 14px;
+        width: 248px;        padding-left: 14px;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-right: 8px;
