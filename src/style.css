@@ -666,7 +666,6 @@ color: var(--white-color);
 .eleventh-section {
   background: url(./img/eleventh-section.png);
 width: 925px;
-height: 648px;
 }
 .eleventh-section-container {
   display: flex;
@@ -717,6 +716,8 @@ flex-direction: column;
 gap: 10px;
 }
 .eleventh-section-info-div {
+  padding-bottom: 12px;
+
   border-bottom: 1px solid var(--main-color);
 width: 886px;
 display: flex
@@ -727,9 +728,8 @@ gap: 27px;
 .eleventh-section-description {
   display: flex;
   flex-direction: row;
-  padding-bottom: 8px;
   gap: 8px;
-  width: 215px;
+  width: 221px;  align-items: center;
 }
 .icons-eleventh-section-info {
   width: 20px;
@@ -748,4 +748,81 @@ line-height: 1.5;
 color: var(--green-black-color);
 text-decoration: underline;
 text-decoration-skip-ink: none;
+}
+.eleventh-section-info-paragraph-adress {
+  width: 480px;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--main-color);
+}
+.eleventh-section-google-maps{
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--green-black-color);
+cursor: pointer;
+}
+/* twelfth-section */
+.twelfth-section {
+  width: 925px;
+}
+.twelfth-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.twelfth-section-title {
+font-weight: 700;
+font-size: 48px;
+line-height: 1.2;
+text-transform: uppercase;
+color: var(--main-color);
+}
+.twelfth-section-div {
+  /* border: 1px solid rgba(119, 119, 119, 0); */
+border-radius: 6px;
+width: 884px;
+/* height: 192px; */
+}
+.twelfth-section-div-info {
+  border: 1px solid #77777780;
+padding: 20px;
+width: 884px;
+height: 64px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.twelfth-section-div-paragraph {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-transform: uppercase;
+color: var(--main-color);
+}
+.twelfth-section-btns {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: inherit;
+  display: flex;
+align-items: center;
+}
+.icons-twelfth-section {
+  width: 17px;
+  height: 10px;
+}
+.twelfth-section-description {
+  border-radius: 0 0 6px 6px;
+  padding: 16px 12px;
+  width: 884px;
+  background: #dfe8f6;
+opacity: 0.9;
+}
+.twelfth-section-description-paragraph {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #000000b0;
 }
