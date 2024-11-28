@@ -460,10 +460,11 @@ img {
   width: 32px;
   height: 32px;
 }
-.third-section__btns:hover {
-  border-top: 8px solid var(--green-second-color);
+.third-section button:hover {
+  border-top: 8px solid var(--green-color);
   background-color: var(--white-color);
 }
+
 @media screen and (max-width: 767px) {
   .third-section {
     width: 290px;
